@@ -1,6 +1,6 @@
 import { PrismaClient } from '@prisma/client'
 
-const prisma = new PrismaClient()
+{/*const prisma = new PrismaClient()
 
 async function main() {
     const newUser = await prisma.informations.create({
@@ -19,3 +19,4 @@ async function main() {
     .finally(async () => {
       await prisma.$disconnect()
     })
+  */}
