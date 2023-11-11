@@ -10,10 +10,8 @@ async function main() {
         // 他のフィールド...
       },
     })
-  
     console.log(`Created new user: ${newUser.name} (ID: ${newUser.id})`)
   }
-  
   main()
     .catch((e) => {
       throw e
@@ -21,4 +19,3 @@ async function main() {
     .finally(async () => {
       await prisma.$disconnect()
     })
-  
